@@ -1,12 +1,22 @@
 {
-  "name": "normalize.css",
+  "name": "normalize.css-without-attribute-selectors",
   "version": "8.0.0",
-  "description": "A modern alternative to CSS resets",
+  "description": "This is a fork of the famous normalize.css from Nicolas Gallagher and Jonathan Neal where all attribute selectors have been removed",
   "main": "normalize.css",
   "style": "normalize.css",
   "files": [
     "LICENSE.md",
     "normalize.css"
+  ],
+  "keywords": [
+    "normalize",
+    "css",
+    "reset",
+    "browser",
+    "style",
+    "attribute",
+    "selectors",
+    "IE11"
   ],
   "devDependencies": {
     "stylelint": "^7.9.0",
@@ -15,10 +25,10 @@
   "scripts": {
     "test": "stylelint normalize.css"
   },
-  "repository": "necolas/normalize.css",
+  "repository": "ebual/normalize.css-without-attribute-selectors",
   "license": "MIT",
-  "bugs": "https://github.com/necolas/normalize.css/issues",
-  "homepage": "https://necolas.github.io/normalize.css",
+  "bugs": "hhttps://github.com/ebual/normalize.css-without-attribute-selectors/issues",
+  "homepage": "https://github.com/ebual/normalize.css-without-attribute-selectors",
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
